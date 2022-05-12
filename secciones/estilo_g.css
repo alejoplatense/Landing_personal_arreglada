@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+:root {
+    --azul: #14205a;
+    --celeste: #2182c7;
+    --blanco: #fff;
+    --blanco2: rgba(255, 255, 255, 0.6);
+    --gris: rgba(226, 225, 225, 0.6) ;
+    --naranja: rgba(255, 127, 7);
+    --negro: rgba(0, 0, 0, 0);
+    --verde: rgb(11, 109, 11);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: url(Logo_back-01.jpg);
+}
+.estructura {
+    width: 70%;
+}
+.header {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--celeste);
+    display: flex;
+    align-items: center;
+}
+.titulo h2 {
+    color: var(--blanco);
+    font-weight: bold;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.articulo {
+    width: 100%;
+    height: 2rem;
+    background-color: #7eb4db;
+    display: flex;
+    align-items: center;
+}
+.articulo h3 {
+    font-weight: bold;
+    color: var(--azul);
+    padding-left: 1rem;
+}
+.pieza {
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_montaje {
+    width: 110%;
+    height: auto;
+}
+.pieza:hover img {
+    transform: scale(1.3);
+    transition: 1s;
+}
+.social {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.social a {
+    color: var(--blanco);
+    padding: 1rem 1rem;
+    display: block;
+}
+.social a:hover {
+    color: var(--celeste);
+}
